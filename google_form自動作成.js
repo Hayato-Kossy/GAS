@@ -5,7 +5,7 @@ class Sheet{
   }
   const sheet = new Sheet(SpreadsheetApp.getActiveSpreadsheet());
   
-  class Processing_Sheet_System{
+class Processing_Sheet_System{
     static get_lastRow(target_sheet){
       return target_sheet.getLastRow();
     }  
